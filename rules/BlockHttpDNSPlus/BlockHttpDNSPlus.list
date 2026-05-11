@@ -1,0 +1,20 @@
+# -------------------
+# 私有DNS
+# -------------------
+
+DOMAIN-KEYWORD , httpsdns                                                            # HTTPSDNS
+DOMAIN-KEYWORD , https-dns                                                           # HTTPSDNS
+DOMAIN-KEYWORD , https.dns                                                           # HTTPSDNS
+  
+DOMAIN-KEYWORD , httpdns                                                             # HTTPDNS
+DOMAIN-KEYWORD , http-dns                                                            # HTTPDNS
+DOMAIN-KEYWORD , http.dns                                                            # HTTPDNS
+  
+  
+DOMAIN-KEYWORD , apidns                                                              # API DNS
+DOMAIN-KEYWORD , api-dns                                                             # API DNS
+DOMAIN-KEYWORD , api.dns                                                             # API DNS
+  
+DOMAIN-KEYWORD , dnsapi                                                              # API DNS
+DOMAIN-KEYWORD , dns-api                                                             # API DNS
+DOMAIN-KEYWORD , dns.api                                                             # API DNS
