@@ -1,0 +1,207 @@
+# ===============================================
+# 微软生态核心直连规则 (Windows/Office/Outlook)
+# ===============================================
+# --- 0. 根域名 ---
+DOMAIN-SUFFIX,microsoft
+DOMAIN-SUFFIX,office
+DOMAIN-SUFFIX,windows
+# --- 1. 顶级品牌主域 ---
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoft365.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,s-microsoft.com
+# --- 2. 生产力工具 (邮件/文档/通讯) ---
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,1drv.ms
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,onenote.net
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,lync.com
+# --- 3. 身份验证 & 安全 (防风控) ---
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoftonline-p.com
+DOMAIN-SUFFIX,microsoftonline-p.net
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,onmicrosoft.com
+DOMAIN-SUFFIX,microsoftusercontent.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,phonefactor.net
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,microsoftazuread-sso.com
+# --- 4. 系统更新 & 应用商店 ---
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,microsoftstore.com
+DOMAIN-SUFFIX,onestore.ms
+# --- 5. 核心底层服务 & 网络判断 ---
+DOMAIN-SUFFIX,svc.ms
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+# --- 6. 静态资源 / CDN / 跳转 ---
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,gfx.ms
+DOMAIN-SUFFIX,microsoft.com.edgesuite.net
+DOMAIN-SUFFIX,otelrules.azureedge.net
+DOMAIN-SUFFIX,mlccdnprod.azureedge.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,msecnd.net
+DOMAIN-SUFFIX,msocdn.com
+DOMAIN-SUFFIX,aspnetcdn.com
+DOMAIN-SUFFIX,microsoft-com.akamaized.net
+DOMAIN-SUFFIX,msn-com.akamaized.net
+DOMAIN-SUFFIX,informationprotection.azure.com
+DOMAIN-SUFFIX,aadrm.com
+DOMAIN-SUFFIX,virtualearth.net
+# --- 7. 开发相关 (保留你需要的) ---
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vsassets.io
+
+# --------------------------------------------------------------
+# 用于 HTTPDNS定位，匹配选用哪个CDN 
+# --------------------------------------------------------------
+# --- 1. 顶级品牌主域 ---
+DOMAIN-KEYWORD,microsoft.com.*.
+DOMAIN-KEYWORD,microsoft365.com.*.
+DOMAIN-KEYWORD,windows.com.*.
+DOMAIN-KEYWORD,windows.net.*.
+DOMAIN-KEYWORD,office.com.*.
+DOMAIN-KEYWORD,office365.com.*.
+DOMAIN-KEYWORD,live.com.*.
+DOMAIN-KEYWORD,live.net.*.
+DOMAIN-KEYWORD,msn.com.*.
+DOMAIN-KEYWORD,bing.com.*.
+DOMAIN-KEYWORD,s-microsoft.com.*.
+# --- 2. 生产力工具 (邮件/文档/通讯) ---
+DOMAIN-KEYWORD,outlook.com.*.
+DOMAIN-KEYWORD,office.net.*.
+DOMAIN-KEYWORD,onedrive.com.*.
+DOMAIN-KEYWORD,1drv.com.*.
+DOMAIN-KEYWORD,1drv.ms.*.
+DOMAIN-KEYWORD,livefilestore.com.*.
+DOMAIN-KEYWORD,onenote.com.*.
+DOMAIN-KEYWORD,onenote.net.*.
+DOMAIN-KEYWORD,sharepoint.com.*.
+DOMAIN-KEYWORD,skype.com.*.
+DOMAIN-KEYWORD,skypeassets.com.*.
+DOMAIN-KEYWORD,lync.com.*.
+# --- 3. 身份验证 & 安全 (防风控) ---
+DOMAIN-KEYWORD,microsoftonline.com.*.
+DOMAIN-KEYWORD,microsoftonline-p.com.*.
+DOMAIN-KEYWORD,microsoftonline-p.net.*.
+DOMAIN-KEYWORD,sharepointonline.com.*.
+DOMAIN-KEYWORD,onmicrosoft.com.*.
+DOMAIN-KEYWORD,microsoftusercontent.com.*.
+DOMAIN-KEYWORD,msauth.net.*.
+DOMAIN-KEYWORD,msauthimages.net.*.
+DOMAIN-KEYWORD,msftauth.net.*.
+DOMAIN-KEYWORD,msftauthimages.net.*.
+DOMAIN-KEYWORD,phonefactor.net.*.
+DOMAIN-KEYWORD,msidentity.com.*.
+DOMAIN-KEYWORD,msftidentity.com.*.
+DOMAIN-KEYWORD,microsoftazuread-sso.com.*.
+# --- 4. 系统更新 & 应用商店 ---
+DOMAIN-KEYWORD,windowsupdate.com.*.
+DOMAIN-KEYWORD,microsoftstore.com.*.
+DOMAIN-KEYWORD,onestore.ms.*.
+# --- 5. 核心底层服务 & 网络判断 ---
+DOMAIN-KEYWORD,svc.ms.*.
+DOMAIN-KEYWORD,msftconnecttest.com.*.
+DOMAIN-KEYWORD,msftncsi.com.*.
+# --- 6. 静态资源 / CDN / 跳转 ---
+DOMAIN-KEYWORD,aka.ms.*.
+DOMAIN-KEYWORD,sfx.ms.*.
+DOMAIN-KEYWORD,gfx.ms.*.
+DOMAIN-KEYWORD,microsoft.com.edgesuite.net.*.
+DOMAIN-KEYWORD,otelrules.azureedge.net.*.
+DOMAIN-KEYWORD,mlccdnprod.azureedge.net.*.
+DOMAIN-KEYWORD,msedge.net.*.
+DOMAIN-KEYWORD,msecnd.net.*.
+DOMAIN-KEYWORD,msocdn.com.*.
+DOMAIN-KEYWORD,aspnetcdn.com.*.
+DOMAIN-KEYWORD,microsoft-com.akamaized.net.*.
+DOMAIN-KEYWORD,msn-com.akamaized.net.*.
+DOMAIN-KEYWORD,informationprotection.azure.com.*.
+DOMAIN-KEYWORD,aadrm.com.*.
+DOMAIN-KEYWORD,virtualearth.net.*.
+
+# --- 1. 顶级品牌主域 ---
+DOMAIN-KEYWORD,microsoft.com.*.*.
+DOMAIN-KEYWORD,microsoft365.com.*.*.
+DOMAIN-KEYWORD,windows.com.*.*.
+DOMAIN-KEYWORD,windows.net.*.*.
+DOMAIN-KEYWORD,office.com.*.*.
+DOMAIN-KEYWORD,office365.com.*.*.
+DOMAIN-KEYWORD,live.com.*.*.
+DOMAIN-KEYWORD,live.net.*.*.
+DOMAIN-KEYWORD,msn.com.*.*.
+DOMAIN-KEYWORD,bing.com.*.*.
+DOMAIN-KEYWORD,s-microsoft.com.*.*.
+# --- 2. 生产力工具 (邮件/文档/通讯) ---
+DOMAIN-KEYWORD,outlook.com.*.*.
+DOMAIN-KEYWORD,office.net.*.*.
+DOMAIN-KEYWORD,onedrive.com.*.*.
+DOMAIN-KEYWORD,1drv.com.*.*.
+DOMAIN-KEYWORD,1drv.ms.*.*.
+DOMAIN-KEYWORD,livefilestore.com.*.*.
+DOMAIN-KEYWORD,onenote.com.*.*.
+DOMAIN-KEYWORD,onenote.net.*.*.
+DOMAIN-KEYWORD,sharepoint.com.*.*.
+DOMAIN-KEYWORD,skype.com.*.*.
+DOMAIN-KEYWORD,skypeassets.com.*.*.
+DOMAIN-KEYWORD,lync.com.*.*.
+# --- 3. 身份验证 & 安全 (防风控) ---
+DOMAIN-KEYWORD,microsoftonline.com.*.*.
+DOMAIN-KEYWORD,microsoftonline-p.com.*.*.
+DOMAIN-KEYWORD,microsoftonline-p.net.*.*.
+DOMAIN-KEYWORD,sharepointonline.com.*.*.
+DOMAIN-KEYWORD,onmicrosoft.com.*.*.
+DOMAIN-KEYWORD,microsoftusercontent.com.*.*.
+DOMAIN-KEYWORD,msauth.net.*.*.
+DOMAIN-KEYWORD,msauthimages.net.*.*.
+DOMAIN-KEYWORD,msftauth.net.*.*.
+DOMAIN-KEYWORD,msftauthimages.net.*.*.
+DOMAIN-KEYWORD,phonefactor.net.*.*.
+DOMAIN-KEYWORD,msidentity.com.*.*.
+DOMAIN-KEYWORD,msftidentity.com.*.*.
+DOMAIN-KEYWORD,microsoftazuread-sso.com.*.*.
+# --- 4. 系统更新 & 应用商店 ---
+DOMAIN-KEYWORD,windowsupdate.com.*.*.
+DOMAIN-KEYWORD,microsoftstore.com.*.*.
+DOMAIN-KEYWORD,onestore.ms.*.*.
+# --- 5. 核心底层服务 & 网络判断 ---
+DOMAIN-KEYWORD,svc.ms.*.*.
+DOMAIN-KEYWORD,msftconnecttest.com.*.*.
+DOMAIN-KEYWORD,msftncsi.com.*.*.
+# --- 6. 静态资源 / CDN / 跳转 ---
+DOMAIN-KEYWORD,aka.ms.*.*.
+DOMAIN-KEYWORD,sfx.ms.*.*.
+DOMAIN-KEYWORD,gfx.ms.*.*.
+DOMAIN-KEYWORD,microsoft.com.edgesuite.net.*.*.
+DOMAIN-KEYWORD,otelrules.azureedge.net.*.*.
+DOMAIN-KEYWORD,mlccdnprod.azureedge.net.*.*.
+DOMAIN-KEYWORD,msedge.net.*.*.
+DOMAIN-KEYWORD,msecnd.net.*.*.
+DOMAIN-KEYWORD,msocdn.com.*.*.
+DOMAIN-KEYWORD,aspnetcdn.com.*.*.
+DOMAIN-KEYWORD,microsoft-com.akamaized.net.*.*.
+DOMAIN-KEYWORD,msn-com.akamaized.net.*.*.
+DOMAIN-KEYWORD,informationprotection.azure.com.*.*.
+DOMAIN-KEYWORD,aadrm.com.*.*.
+DOMAIN-KEYWORD,virtualearth.net.*.*.
