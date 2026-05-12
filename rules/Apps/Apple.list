@@ -1,0 +1,70 @@
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,apple
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,entrust.net
+DOMAIN-SUFFIX,sectigo.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,apple.co
+
+# --------------------------------------------------------------
+# 用于 HTTPDNS定位，匹配选用哪个CDN 
+# --------------------------------------------------------------
+
+DOMAIN-KEYWORD,cdn-apple.com.*.
+DOMAIN-KEYWORD,apple.com.*.
+DOMAIN-KEYWORD,icloud.com.*.
+DOMAIN-KEYWORD,itunes.com.*.
+DOMAIN-KEYWORD,apple.*.
+DOMAIN-KEYWORD,icloud-content.com.*.
+DOMAIN-KEYWORD,apple-dns.net.*.
+DOMAIN-KEYWORD,mzstatic.com.*.
+DOMAIN-KEYWORD,apple-cloudkit.com.*.
+DOMAIN-KEYWORD,aaplimg.com.*.
+DOMAIN-KEYWORD,apple-mapkit.com.*.
+DOMAIN-KEYWORD,digicert.com.*.
+DOMAIN-KEYWORD,entrust.net.*.
+DOMAIN-KEYWORD,sectigo.com.*.
+DOMAIN-KEYWORD,me.com.*.
+DOMAIN-KEYWORD,mac.com.*.
+DOMAIN-KEYWORD,apple-livephotoskit.com.*.
+DOMAIN-KEYWORD,edgesuite.net.*.
+DOMAIN-KEYWORD,apple.co.*.
+DOMAIN-KEYWORD,cdn-apple.com.*.*.
+DOMAIN-KEYWORD,apple.com.*.*.
+DOMAIN-KEYWORD,icloud.com.*.*.
+DOMAIN-KEYWORD,itunes.com.*.*.
+DOMAIN-KEYWORD,apple.*.*.
+DOMAIN-KEYWORD,icloud-content.com.*.*.
+DOMAIN-KEYWORD,apple-dns.net.*.*.
+DOMAIN-KEYWORD,mzstatic.com.*.*.
+DOMAIN-KEYWORD,apple-cloudkit.com.*.*.
+DOMAIN-KEYWORD,aaplimg.com.*.*.
+DOMAIN-KEYWORD,apple-mapkit.com.*.*.
+DOMAIN-KEYWORD,digicert.com.*.*.
+DOMAIN-KEYWORD,entrust.net.*.*.
+DOMAIN-KEYWORD,sectigo.com.*.*.
+DOMAIN-KEYWORD,me.com.*.*.
+DOMAIN-KEYWORD,mac.com.*.*.
+DOMAIN-KEYWORD,apple-livephotoskit.com.*.*.
+DOMAIN-KEYWORD,edgesuite.net.*.*.
+DOMAIN-KEYWORD,apple.co.*.*.
+
+# --------------------------------------------------------------
+# 第三方
+# --------------------------------------------------------------
+
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
