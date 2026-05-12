@@ -526,10 +526,7 @@ DOMAIN-SUFFIX,cloudfront-cn.net # GeoSite:aws-cn
 # DOMAIN-SUFFIX,nwcdcloud.com.cn # GeoSite:aws-cn                                # duplicate .cn suffix rule
 # DOMAIN-SUFFIX,nwcddns.cn # GeoSite:aws-cn                                # duplicate .cn suffix rule
 # DOMAIN-SUFFIX,nwcdinfosec.cn # GeoSite:aws-cn                                # duplicate .cn suffix rule
-DOMAIN-SUFFIX,awsdns-cn-??.biz # GeoSite:aws-cn
-DOMAIN-SUFFIX,awsdns-cn-??.com # GeoSite:aws-cn
-DOMAIN-SUFFIX,awsdns-cn-??.net # GeoSite:aws-cn
-DOMAIN-SUFFIX,awsdns-cn-??.top # GeoSite:aws-cn
+DOMAIN-KEYWORD,awsdns-cn- # GeoSite:aws-cn
 # DOMAIN-SUFFIX,regexp:.+\.awsdns-cn-[0-9][0-9]\.(biz|com|
 # DOMAIN-SUFFIX,regexp:.+\.awsdns-cn-[0-9][a-e0-9]\.cn$ # GeoSite:aws-cn
 # DOMAIN-SUFFIX,route53.cn # GeoSite:aws-cn                                # duplicate .cn suffix rule
@@ -841,17 +838,11 @@ DOMAIN-SUFFIX,byteactivity16.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byteapi.com # GeoSite:bytedance
 # DOMAIN-SUFFIX,bytecdn.cn # GeoSite:bytedance                             # duplicate .cn suffix rule
 DOMAIN-SUFFIX,bytecdn.com # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecdn.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecdn.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecdn.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecdn.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,bytecdn.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytecdn.net # GeoSite:bytedance
 DOMAIN-SUFFIX,bytecdntp.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytecimg.com # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecimg.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecimg.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecimg.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytecimg.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,bytecimg.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byted-dast.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byted-edu.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byted-static.com # GeoSite:bytedance
@@ -860,19 +851,13 @@ DOMAIN-SUFFIX,byted.org # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedance-boe.net # GeoSite:bytedance
 # DOMAIN-SUFFIX,bytedance.cn # GeoSite:bytedance                             # duplicate .cn suffix rule
 DOMAIN-SUFFIX,bytedance.com # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedance.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedance.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedance.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedance.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,bytedance.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedance.net # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedance.org # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedanceapi.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedapm.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedcdn.com # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedcdn.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedcdn.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedcdn.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytedcdn.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,bytedcdn.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedeliver.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedgames.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytedns.com # GeoSite:bytedance
@@ -901,24 +886,15 @@ DOMAIN-SUFFIX,bytehwm.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byteics.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byteics.net # GeoSite:bytedance
 DOMAIN-SUFFIX,byteimg.com # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimg.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimg.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimg.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimg.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,byteimg.com # GeoSite:bytedance
 DOMAIN-SUFFIX,byteimgc.com # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimgc.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimgc.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimgc.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,byteimgc.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,byteimgc.com # GeoSite:bytedance
 # DOMAIN-SUFFIX,byteintl.net # GeoSite:bytedance                             # foreign & foreign-other
 # DOMAIN-SUFFIX,bytelb.com # GeoSite:bytedance                             # foreign
 DOMAIN-SUFFIX,bytelb.net # GeoSite:bytedance
 DOMAIN-SUFFIX,bytelb000.net # GeoSite:bytedance
 DOMAIN-SUFFIX,bytemaimg.com # GeoSite:bytedance
-DOMAIN-KEYWORD,bytemaimg.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytemaimg.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytemaimg.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,bytemaimg.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,bytemaimg.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytemastatic.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytemedi.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bytenewst.com # GeoSite:bytedance
@@ -1106,10 +1082,7 @@ DOMAIN-SUFFIX,ziyrta.com # GeoSite:bytedance
 DOMAIN-SUFFIX,zjbyte.com # GeoSite:bytedance
 DOMAIN-SUFFIX,zjbyte.net # GeoSite:bytedance
 DOMAIN-SUFFIX,zjcdn.com # GeoSite:bytedance
-DOMAIN-KEYWORD,zjcdn.com. # GeoSite:bytedance
-DOMAIN-KEYWORD,zjcdn.com.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,zjcdn.com.*.*. # GeoSite:bytedance
-DOMAIN-KEYWORD,zjcdn.com.*.*.*. # GeoSite:bytedance
+DOMAIN-KEYWORD,zjcdn.com # GeoSite:bytedance
 DOMAIN-SUFFIX,zjfcdn.com # GeoSite:bytedance
 DOMAIN-SUFFIX,zjgslb.com # GeoSite:bytedance
 DOMAIN-SUFFIX,bds.snssdk.com # GeoSite:bytedance-ads
@@ -2281,10 +2254,7 @@ DOMAIN-SUFFIX,dcarimg.com # GeoSite:dongchedi
 DOMAIN-SUFFIX,dcarlive.com # GeoSite:dongchedi
 DOMAIN-SUFFIX,dcarstatic.com # GeoSite:dongchedi
 DOMAIN-SUFFIX,dcarvod.com # GeoSite:dongchedi
-DOMAIN-KEYWORD,dcarvod.com. # GeoSite:dongchedi
-DOMAIN-KEYWORD,dcarvod.com.*. # GeoSite:dongchedi
-DOMAIN-KEYWORD,dcarvod.com.*.*. # GeoSite:dongchedi
-DOMAIN-KEYWORD,dcarvod.com.*.*.*. # GeoSite:dongchedi
+DOMAIN-KEYWORD,dcarvod.com # GeoSite:dongchedi
 DOMAIN-SUFFIX,dcdapp.com # GeoSite:dongchedi
 DOMAIN-SUFFIX,dongchedi.com # GeoSite:dongchedi
 DOMAIN-SUFFIX,dongchediapp.com # GeoSite:dongchedi
@@ -2313,14 +2283,9 @@ DOMAIN-SUFFIX,activity-wbsj.com # GeoSite:douyin
 DOMAIN-SUFFIX,aihst8.com # GeoSite:douyin
 # DOMAIN-SUFFIX,amemv.cn # GeoSite:douyin                                # duplicate .cn suffix rule
 DOMAIN-SUFFIX,amemv.com # GeoSite:douyin
-DOMAIN-KEYWORD,amemv.com. # GeoSite:douyin
-DOMAIN-KEYWORD,amemv.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,amemv.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,amemv.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,amemv.com # GeoSite:douyin
 DOMAIN-SUFFIX,amemv.net # GeoSite:douyin
-DOMAIN-KEYWORD,*-aweme-*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,*-aweme-*.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,*-aweme-*.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,-aweme- # GeoSite:douyin
 DOMAIN-SUFFIX,awemeughun.com # GeoSite:douyin
 DOMAIN-SUFFIX,awemeuglang.com # GeoSite:douyin
 DOMAIN-SUFFIX,awemeugsoul.com # GeoSite:douyin
@@ -2329,74 +2294,38 @@ DOMAIN-SUFFIX,betastar.cn # GeoSite:douyin                                # dupl
 DOMAIN-SUFFIX,boxdouyin.com # GeoSite:douyin
 DOMAIN-SUFFIX,cookicut.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyin.com # GeoSite:douyin
-DOMAIN-KEYWORD,douyin.com. # GeoSite:douyin
-DOMAIN-KEYWORD,douyin.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyin.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyin.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,douyin.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinact.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinact.net # GeoSite:douyin
 DOMAIN-SUFFIX,douyincdn.com # GeoSite:douyin
-DOMAIN-KEYWORD,douyincdn.com. # GeoSite:douyin
-DOMAIN-KEYWORD,douyincdn.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyincdn.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyincdn.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,douyincdn.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinfe.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinliving.com # GeoSite:douyin
-DOMAIN-KEYWORD,douyinliving.com. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinliving.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinliving.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinliving.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,douyinliving.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinpic.com # GeoSite:douyin
-DOMAIN-KEYWORD,douyinpic.com. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinpic.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinpic.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinpic.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,douyinpic.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinstatic.com # GeoSite:douyin
-DOMAIN-KEYWORD,douyinstatic.com. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinstatic.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinstatic.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinstatic.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,douyinstatic.com # GeoSite:douyin
 DOMAIN-SUFFIX,douyinvod.com # GeoSite:douyin
-DOMAIN-KEYWORD,douyinvod.com. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinvod.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinvod.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,douyinvod.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,douyinvod.com # GeoSite:douyin
 DOMAIN-SUFFIX,duoshan.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshan.com # GeoSite:douyin
-DOMAIN-KEYWORD,huoshan.com. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshan.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshan.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshan.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,huoshan.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshancdn.com # GeoSite:douyin
-DOMAIN-KEYWORD,huoshancdn.com. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshancdn.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshancdn.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshancdn.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,huoshancdn.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshangroup.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshanimg.com # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanimg.com. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanimg.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanimg.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanimg.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,huoshanimg.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshanlive.com # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanlive.com. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanlive.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanlive.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanlive.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,huoshanlive.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshanparty.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshanstatic.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshante8.com # GeoSite:douyin
 # DOMAIN-SUFFIX,huoshanvideo.cn # GeoSite:douyin                                # duplicate .cn suffix rule
 DOMAIN-SUFFIX,huoshanvideo.net # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvideo.net. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvideo.net.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvideo.net.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvideo.net.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,huoshanvideo.net # GeoSite:douyin
 DOMAIN-SUFFIX,huoshanvod.com # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvod.com. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvod.com.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvod.com.*.*. # GeoSite:douyin
-DOMAIN-KEYWORD,huoshanvod.com.*.*.*. # GeoSite:douyin
+DOMAIN-KEYWORD,huoshanvod.com # GeoSite:douyin
 DOMAIN-SUFFIX,huoshanxiaoshipin.cn # GeoSite:douyin                                # duplicate .cn suffix rule
 DOMAIN-SUFFIX,huoshanxiaoshipin.net # GeoSite:douyin
 # DOMAIN-SUFFIX,huoshanzhibo.cn # GeoSite:douyin                                # duplicate .cn suffix rule
