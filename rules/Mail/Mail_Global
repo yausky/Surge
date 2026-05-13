@@ -1,0 +1,34 @@
+# NAME: Mail_All
+# AUTHOR: Sky
+# UPDATED: 2026-05-13
+# DESCRIPTION: 常见邮箱 IMAP / POP3 / SMTP / Webmail 域名集合
+# 注意：用于 Surge RULE-SET，策略建议走「邮件服务」
+
+# ============================================================
+# Hostinger Email
+# ============================================================
+
+DOMAIN,imap.hostinger.com
+DOMAIN,pop.hostinger.com
+DOMAIN,smtp.hostinger.com
+DOMAIN,webmail.hostinger.com
+
+# ============================================================
+# Titan Email
+# ============================================================
+
+DOMAIN,imap.titan.email
+DOMAIN,pop.titan.email
+DOMAIN,smtp.titan.email
+DOMAIN,app.titan.email
+DOMAIN-SUFFIX,titan.email
+
+# ============================================================
+# GoDaddy / Secureserver
+# ============================================================
+
+DOMAIN,imap.secureserver.net
+DOMAIN,pop.secureserver.net
+DOMAIN,smtpout.secureserver.net
+DOMAIN,email.secureserver.net
+DOMAIN-SUFFIX,secureserver.net
