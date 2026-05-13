@@ -1,0 +1,177 @@
+# NAME: Mail_All
+# AUTHOR: Sky
+# UPDATED: 2026-05-13
+# DESCRIPTION: 常见邮箱 IMAP / POP3 / SMTP / Webmail 域名集合
+# 注意：用于 Surge RULE-SET，策略建议走「邮件服务」
+
+# ============================================================
+# Titan Email
+# ============================================================
+
+DOMAIN,imap.titan.email
+DOMAIN,pop.titan.email
+DOMAIN,smtp.titan.email
+DOMAIN,app.titan.email
+DOMAIN-SUFFIX,titan.email
+
+# ============================================================
+# Gmail / Google Mail
+# ============================================================
+
+DOMAIN,mail.google.com
+DOMAIN,imap.gmail.com
+DOMAIN,pop.gmail.com
+DOMAIN,smtp.gmail.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+
+# ============================================================
+# Microsoft / Outlook / Hotmail / Live / Office365
+# ============================================================
+
+DOMAIN,outlook.live.com
+DOMAIN,outlook.office.com
+DOMAIN,outlook.office365.com
+DOMAIN,imap-mail.outlook.com
+DOMAIN,pop-mail.outlook.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,outlook.office365.com
+DOMAIN,smtp.office365.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office365.com
+
+# ============================================================
+# Yahoo / AOL
+# ============================================================
+
+DOMAIN,imap.mail.yahoo.com
+DOMAIN,pop.mail.yahoo.com
+DOMAIN,smtp.mail.yahoo.com
+DOMAIN,mail.yahoo.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.com.cn
+DOMAIN-SUFFIX,yahoo.co.jp
+
+DOMAIN,imap.aol.com
+DOMAIN,pop.aol.com
+DOMAIN,smtp.aol.com
+DOMAIN,mail.aol.com
+DOMAIN-SUFFIX,aol.com
+
+# ============================================================
+# Zoho Mail
+# ============================================================
+
+DOMAIN,mail.zoho.com
+DOMAIN,imap.zoho.com
+DOMAIN,pop.zoho.com
+DOMAIN,smtp.zoho.com
+DOMAIN,imappro.zoho.com
+DOMAIN,smtppro.zoho.com
+
+DOMAIN,imap.zoho.eu
+DOMAIN,pop.zoho.eu
+DOMAIN,smtp.zoho.eu
+
+DOMAIN-SUFFIX,zoho.com
+DOMAIN-SUFFIX,zoho.eu
+DOMAIN-SUFFIX,zoho.com.cn
+
+# ============================================================
+# Fastmail
+# ============================================================
+
+DOMAIN,imap.fastmail.com
+DOMAIN,pop.fastmail.com
+DOMAIN,smtp.fastmail.com
+DOMAIN,imaps-proxy.fastmail.com
+DOMAIN,pops-proxy.fastmail.com
+DOMAIN,smtps-proxy.fastmail.com
+DOMAIN,mail.fastmail.com
+DOMAIN-SUFFIX,fastmail.com
+DOMAIN-SUFFIX,fastmail.fm
+
+# ============================================================
+# Proton Mail
+# Proton 普通账号不直接开放公网 IMAP/SMTP，桌面客户端通常依赖 Bridge。
+# 这里主要保留 Web / Bridge / API 相关域名。
+# ============================================================
+
+DOMAIN,mail.proton.me
+DOMAIN,account.proton.me
+DOMAIN,proton.me
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protonmail.com
+
+# ============================================================
+# GMX / Mail.com
+# ============================================================
+
+DOMAIN,imap.gmx.com
+DOMAIN,pop.gmx.com
+DOMAIN,mail.gmx.com
+DOMAIN,imap.gmx.net
+DOMAIN,pop.gmx.net
+DOMAIN,mail.gmx.net
+DOMAIN-SUFFIX,gmx.com
+DOMAIN-SUFFIX,gmx.net
+DOMAIN-SUFFIX,gmx.de
+
+DOMAIN,imap.mail.com
+DOMAIN,pop.mail.com
+DOMAIN,smtp.mail.com
+DOMAIN,mail.com
+DOMAIN-SUFFIX,mail.com
+DOMAIN-SUFFIX,email.com
+DOMAIN-SUFFIX,usa.com
+DOMAIN-SUFFIX,post.com
+DOMAIN-SUFFIX,consultant.com
+DOMAIN-SUFFIX,engineer.com
+DOMAIN-SUFFIX,dr.com
+DOMAIN-SUFFIX,techie.com
+
+# ============================================================
+# Yandex Mail
+# ============================================================
+
+DOMAIN,mail.yandex.com
+DOMAIN,mail.yandex.ru
+DOMAIN,imap.yandex.com
+DOMAIN,smtp.yandex.com
+DOMAIN,pop.yandex.com
+DOMAIN,imap.yandex.ru
+DOMAIN,smtp.yandex.ru
+DOMAIN,pop.yandex.ru
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yandex.net
+
+# ============================================================
+# Mail.ru
+# ============================================================
+
+DOMAIN,mail.ru
+DOMAIN,imap.mail.ru
+DOMAIN,pop.mail.ru
+DOMAIN,smtp.mail.ru
+DOMAIN-SUFFIX,mail.ru
+DOMAIN-SUFFIX,inbox.ru
+DOMAIN-SUFFIX,bk.ru
+DOMAIN-SUFFIX,list.ru
+
+# ============================================================
+# Generic Webmail / Autodiscover / Mail Protocol Hints
+# 谨慎保留：用于自定义域名邮箱，比如 mail.yourdomain.com / webmail.yourdomain.com
+# ============================================================
+
+# DOMAIN-KEYWORD,webmail
+# DOMAIN-KEYWORD,imap.
+# DOMAIN-KEYWORD,smtp.
+# DOMAIN-KEYWORD,pop.
+# DOMAIN-KEYWORD,pop3.
+# DOMAIN-KEYWORD,mail.
+# DOMAIN-KEYWORD,autodiscover
+# DOMAIN-KEYWORD,autoconfig
