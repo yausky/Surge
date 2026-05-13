@@ -5,16 +5,6 @@
 # 注意：用于 Surge RULE-SET，策略建议走「邮件服务」
 
 # ============================================================
-# Titan Email
-# ============================================================
-
-DOMAIN,imap.titan.email
-DOMAIN,pop.titan.email
-DOMAIN,smtp.titan.email
-DOMAIN,app.titan.email
-DOMAIN-SUFFIX,titan.email
-
-# ============================================================
 # Gmail / Google Mail
 # ============================================================
 
