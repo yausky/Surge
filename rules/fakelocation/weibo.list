@@ -4,8 +4,8 @@
     
 # 生效时间：立刻 !!!!
    
-- DOMAIN-SUFFIX  , wbimg.cn                  
-- DOMAIN-SUFFIX  , wbimg.com                 
-- DOMAIN-SUFFIX  , sinaimg.cn                
+DOMAIN-SUFFIX  , wbimg.cn                  
+DOMAIN-SUFFIX  , wbimg.com                 
+DOMAIN-SUFFIX  , sinaimg.cn                
 
-- DOMAIN-KEYWORD , weibo  
+DOMAIN-KEYWORD , weibo  
