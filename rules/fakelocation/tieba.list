@@ -4,13 +4,13 @@
 
 # 生效时间：2.5小时 !!!!!!! 🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔
 
-- DOMAIN-SUFFIX  , httpdns.baidu.com            # , REJECT-DROP   
-- DOMAIN-SUFFIX  , httpdns.baidubce.com         # , REJECT-DROP    
+DOMAIN-SUFFIX  , httpdns.baidu.com            # , REJECT-DROP   
+DOMAIN-SUFFIX  , httpdns.baidubce.com         # , REJECT-DROP    
     
 # 基础定位
-- DOMAIN         , tiebac.baidu.com          
-#- DOMAIN         , tieba.baidu.com           
-#- DOMAIN         , c.tieba.baidu.com         
-#- DOMAIN         , www.baidu.com                 
+DOMAIN         , tiebac.baidu.com          
+#DOMAIN         , tieba.baidu.com           
+#DOMAIN         , c.tieba.baidu.com         
+#DOMAIN         , www.baidu.com                 
             
-- IP-CIDR        , 180.76.76.0/24                                #, no-resolve  
+IP-CIDR        , 180.76.76.0/24                                #, no-resolve  
